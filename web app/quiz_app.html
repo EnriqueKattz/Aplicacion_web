@@ -1,0 +1,61 @@
+<!DOCTYPE html5>
+<html>
+<head>
+
+    <meta name="viewport" content="user-scalabe=no, width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <title>Desbordamiento de buffer</title>
+    <script type="text/javascript"
+    src="json/questions.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <h1><span id="quizLength"></span> Cuestionario<br>Desbordamiento de buffer</h1>
+        <span id="menu"></span>
+        <div id="menubox" style="display: none;">
+            <br><a href="add_questions.html" alt="add questions" title="add
+        questions"> Add Questions </a><br><br>
+            <a href="remove_questions.html" alt="remove questions" title="remove
+        questions"> Drop Questions </a>
+            <span id="menudismiss"> X </span>
+        </div>
+    </div>
+
+<div class="quiz-wrapper">
+    <div id="quiz"></div>
+</div>
+
+<button id="previous"><p>Previous Question</p></button>
+<button id="next"><p>Next Question</p></button>
+<button id="submit"><p>Submit Quiz</p></button>
+
+<div id results >
+    <h2>Countdown Timer</h2>
+    <div id="clockdiv">
+    <div>
+        <div class="smalltext">Minutes</div>
+        <span class="minutes"></span>
+    </div>
+    <div>
+        <div class="smalltext">Seconds</div>
+        <span class="seconds"></span>
+    </div>
+</div>
+</div>
+<button id="tryAgain"><p>Try Again</p></button>
+
+
+
+
+<div id="footer">
+     <h5>Enrique Alexandre Kattz Villa &copy Copyrigth Diciembre 2021</h5>
+</div>
+<script src="js/countdown.js"></script>
+<script src="js/app.js"></script>
+<script src='js/menu.js'></script>
+
+</body>
+<html>
+
